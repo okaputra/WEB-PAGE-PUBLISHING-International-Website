@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>International Group</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" type="text/css" href="css/home.css"/>
+        <script src="javascript/jquery-3.4.0.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                    $('#menubar').click(function(){
+                        let menu = document.getElementById('myLinks');
+                        if(menu.style.display == "none")
+                        {menu.style.display = "block"}
+                        else 
+                        {menu.style.display= "none"}
+                    })
+                });
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <img src="images/help.jpg" alt="none">
+                <div><h2 class="title">INTERNASIONAL STIKOM BALI</h2></div>
+                <a id="menubar" style="background-color: transparent;" ><img class="menuLogo" src="images/burger.png" alt="none"></a>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="benefit.html">BENEFIT</a></li>
+                        <li><a href="matakuliah.html">LECTURE</a></li>
+                        <li><a href="events.html">EVENTS</a></li>
+                        <li><a href="academic.html">ACADEMIC</a></li>
+                        <li><a href="announcement.html">ANNOUNCEMENTS</a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav id="mobile-nav">
+                <nav id="myLinks">
+                    <a href="home.html">HOME</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="benefit.html">BENEFIT</a>
+                    <a href="matakuliah.html">LECTURE</a>
+                    <a href="events.html">EVENTS</a>
+                    <a href="academic.html">ACADEMIC</a>
+                    <a href="announcement.html">ANNOUNCEMENTS</a>
+                </nav>
+            </nav>
+            <div class="leftside">
+                <div>
+                    <h3 class="h3 first"><u>INTERNATIONAL STIKOM BALI 
+                        a Great Place to Learn</u></h3>
+                </div>
+                <img src="images/a.jpg" alt="none">
+            </div>
+            <p class="p"><b>WHY INTERNATIONAL ?</b></p>
+            <div class="rightside">
+                <img src="images/maha.jpg" alt="none">
+                <h3 class="second"><u>ENHANCE LEARNING</u></h3>
+                <p>In improving learning which is  packaged efficiently 
+                    so that helps teaching and learning process to be more useful, 
+                    fun, intellectual and create more modern learning atmosphere.</p>
+            </div>
+            <div class="clear"></div>
+            <div class="leftside">
+                <img src="images/tour.jpg" alt="none">
+                <h3 class="third"><u>INTERNATIONAL EVENTS</u></h3>
+                <p>International class also has events that are held every year, 
+                    starting from family gathering events for introduce students 
+                    to each batch and student exchanges to Help University. </p>
+            </div>
+            <div class="footer">
+                <p class="f">COPYRIGHT ©INTERNATIONAL STIKOM BALI</p>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>International Group</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/benefit.css"/>
+        <link rel="stylesheet" type="text/css" href="css/calendar.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="javascript/jquery-3.4.0.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                    $('#menubar').click(function(){
+                        let menu = document.getElementById('myLinks');
+                        if(menu.style.display == "none")
+                        {menu.style.display = "block"}
+                        else 
+                        {menu.style.display= "none"}
+                    })
+                });
+        </script>
+    </head>
+    <body>
+        <div class="container">
+        <div class="header">
+            <img src="images/help.jpg" alt="none">
+            <div><h2 class="title">INTERNASIONAL STIKOM BALI</h2></div>
+            <a id="menubar" style="background-color: transparent;" ><img class="menuLogo" src="images/burger.png" alt="none"></a>
+            <div class="navbar">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="benefit.html">BENEFIT</a></li>
+                    <li><a href="matakuliah.html">LECTURE</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="academic.html">ACADEMIC</a></li>
+                    <li><a href="announcement.html">ANNOUNCEMENTS</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav id="mobile-nav">
+            <nav id="myLinks">
+                <a href="home.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="benefit.html">BENEFIT</a>
+                <a href="matakuliah.html">LECTURE</a>
+                <a href="events.html">EVENTS</a>
+                <a href="academic.html">ACADEMIC</a>
+                <a href="announcement.html">ANNOUNCEMENTS</a>
+            </nav>
+        </nav>
+        <p class="p"><b>BENEFIT BECOMING INTERNATIONAL STUDENT</b></p>
+        <div class="content">
+            <div class="leftside">
+                <div class="side1">
+                    <img class="pict" src="images/m.jpg" alt="none">
+                    <p class="txtleft"><b>MULTITASKING</b></p>
+                    <p class="paraph">
+                        Learn to solve the problem from all aspects and active in expressing opinions in innovatively and creatively. </p>
+                </div>
+                <div class="side2">
+                    <p class="txtleft2"><b>BROADER RELATION</b></p>
+                    <p class="paraph2">
+                        Get a broader relation and insights. Can have the ability to adapt quickly. </p>
+                        <img class="pict2" src="images/o.jpg" alt="none">
+                </div>
+                <div class="side3">
+                    <img class="pict3" src="images/v.jpeg" alt="none">
+                    <p class="txtleft3"><b>MORE EXPERIENCE</b></p>
+                    <p class="paraph3">
+                        Give the impressive and good experience in technically or directly. </p>
+                </div>
+                <div class="side4">
+                    <p class="txtleft4"><b>WORLD OF WORK MORE PROMISING</b></p>
+                    <p class="paraph4">
+                        Preparing to build skills, experience, and manner to become a good worker with high quality.</p>
+                        <img class="pict4" src="images/l.jpeg" alt="none">
+                </div>
+            </div>
+            <div class="rightside">
+                <div>
+                    <video class="date"  controls>
+                        <source src="video/vid2.mp4" type="video/mp4" style="width: 900px;">
+                    </video> 
+                </div>
+                <div>
+                    <div class="ads">
+                        <div class="wrapper">
+                            <div class="container-calendar">
+                                <h3 id="monthAndYear">Month & Year</h3>
+                                <div class="button-container-calendar">
+                                    <button id="previous" onclick="previous()">&#8249;</button>
+                                    <button id="next" onclick="next()">&#8250;</button>
+                                </div>
+                                
+                                <table class="table-calendar" id="calendar" data-lang="en">
+                                    <thead id="thead-month"></thead>
+                                    <tbody id="calendar-body"></tbody>
+                                </table>
+                                
+                                <div class="footer-container-calendar">
+                                    <label for="month">Jump To: </label>
+                                    <select id="month" onchange="jump()">
+                                        <option value=0>Jan</option>
+                                        <option value=1>Feb</option>
+                                        <option value=2>Mar</option>
+                                        <option value=3>Apr</option>
+                                        <option value=4>May</option>
+                                        <option value=5>Jun</option>
+                                        <option value=6>Jul</option>
+                                        <option value=7>Aug</option>
+                                        <option value=8>Sep</option>
+                                        <option value=9>Oct</option>
+                                        <option value=10>Nov</option>
+                                        <option value=11>Dec</option>
+                                    </select>
+                                    <select id="year" onchange="jump()"></select>       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="footer">
+            <p class="f">COPYRIGHT ©INTERNATIONAL STIKOM BALI</p></div>
+        </div>
+        <script src="javascript/mycalendar.js"></script>
+    </body>
+</html>

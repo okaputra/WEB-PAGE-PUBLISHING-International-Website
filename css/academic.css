@@ -1,0 +1,1180 @@
+body{
+    background-color: white;
+    margin-top: 0px;
+}
+.container{
+    margin-top: 0px;
+    padding: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+.menuLogo{
+    display: none;
+}
+#mobile-nav{
+    display: none;
+}
+#myLinks{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    margin-bottom: 5px;
+}
+a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+body .p{
+    font-family: Segoe UI;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+    width: 1350px;
+    height: 40px;
+    padding: 0px;
+    text-align: center;
+}
+.header{
+    width: 1350px;
+    height: 90px;
+    background-color: #ffffff;
+    font-family: Segoe UI;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    margin: auto;
+}
+.header img{
+    width: 150px;
+    height: 70px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #c8c8c8;
+}
+.title{
+    width: 200px;
+    height: 70px;
+    float: left;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.navbar{
+    margin-top: 20px;
+    width: 750px;
+    height: 70px;
+    float: right;
+}
+.navbar ul{
+    padding-right: 0px;
+}
+.navbar ul li{
+    font-size: 17px;
+    text-align: left;
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.content{
+    background: linear-gradient(rgb(255, 255, 255),#1D568B);
+    width: 1350px;
+    height: 800px;
+    margin: auto;
+}
+.leftside{
+    width: 800px;
+    height: 720px;
+    font-family: Segoe UI;
+    color: rgb(0, 0, 0);
+    float: left;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.leftside .side1{
+    background-color: #ffffff;
+    width: 380px;
+    height: 340px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    box-shadow: 5px 8px #888888;
+    float: left;
+}
+.leftside .side1 .pict{
+    width: 72%;
+    height: 72%;
+    background-color:#ffffff;
+    margin-top: 15px;
+    margin-left: 52px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    float: none;
+    border-radius: 20px;
+}
+.leftside .side1 .txtleft{
+    width: 270px;
+    height: 25px;
+    font-size: 14px;
+    float: none;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.leftside .side1 .paraph{
+    width: 270px;
+    height: 100px;
+    font-size: 14px;
+    text-align: justify;
+    margin-left: 58px;
+    margin-bottom: 8px;
+    float: none;
+}
+.leftside .side2{
+    background-color: #ffffff;
+    width: 380px;
+    height: 340px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    box-shadow: 5px 8px #888888;
+    float: right;
+}
+.leftside .side2 .txtleft2{
+    width: 270px;
+    height: 25px;
+    font-size: 14px;
+    float: left;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+.leftside .side2 .paraph2{
+    width: 270px;
+    height: 100px;
+    font-size: 14px;
+    text-align: justify;
+    margin-left: 80px;
+    margin-bottom: 0px;
+    float: left;
+}
+.leftside .side2 .pict2{
+    width: 72%;
+    height: 72%;
+    background-color:#ffffff;
+    margin-top: 15px;
+    margin-left: 52px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    float: none;
+    border-radius: 20px;
+}
+.leftside .side3{
+    background-color: #ffffff;
+    width: 380px;
+    height: 340px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    box-shadow: 5px 8px #888888;
+    float: left;
+}
+.leftside .side3 .pict3{
+    width: 72%;
+    height: 72%;
+    background-color:#ffffff;
+    margin-top: 15px;
+    margin-left: 52px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    float: none;
+    border-radius: 20px;
+}
+.leftside .side3 .txtleft3{
+    width: 270px;
+    height: 25px;
+    font-size: 14px;
+    float: none;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.leftside .side3 .paraph3{
+    width: 750px;
+    height: 100px;
+    font-size: 14px;
+    text-align: justify;
+    margin-left: 58px;
+    margin-bottom: 8px;
+    float: none;
+}
+.leftside .side4{
+    background-color: #ffffff;
+    width: 380px;
+    height: 340px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    box-shadow: 5px 8px #888888;
+}
+.leftside .side4 .txtleft4{
+    width: 270px;
+    height: 25px;
+    font-size: 14px;
+    float: left;
+    text-align: left;
+    margin-left: 121px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+.leftside .side4 .paraph4{
+    width: 270px;
+    height: 100px;
+    font-size: 14px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    float: left;
+}
+.leftside .side4 .pict4{
+    width: 230px;
+    height: 250px;
+    background-color:#ffffff;
+    margin-top: -12px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    float: right;
+    border-radius: 20px;
+}
+.clear{
+    clear: both;
+}
+.rightside{
+    width: 480px;
+    height: 717px;
+    background-color: #e7e7e7;
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.rightside .date{
+    background-color: #ffffff;
+    width: 450px;
+    height: 200px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+.rightside .ads{
+    background-color: #ffffff;
+    width: 450px;
+    height: 458px;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 20px;
+}
+.footer{
+    background-color: white;
+    width: 1350px;
+    height: 40px;
+    margin: auto;
+    border-radius: 50px;
+}
+.footer .f{
+    width: 1350px;
+    height: 20px;
+    padding-top: 10px;
+    font-size: 18px;
+    margin-bottom: 0px;
+    font-family: Segoe UI;
+    color: black;
+    text-align: center;
+}
+@media screen and (max-width: 1300px)  {
+    body .p{
+        font-size: 1.2em;
+        font-family: Segoe UI;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        margin-left: 30px;
+        width: 100%;
+        height: 40px;
+        padding: 0px;
+        text-align: center;
+    }
+    .container{
+        margin-top: 0px;
+        padding: 0px;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .header{
+        max-width: 100%;
+    }
+    .header img{
+        width: 150px;
+        height: 70px;
+    }
+    .title{
+        width: 25%;
+    }
+    .navbar{
+        width: 50%;
+    }
+    .navbar ul{
+        padding-right: 0px;
+        margin-left: -50px;
+    }
+    .navbar ul li{
+        font-size: 14px;
+        text-align: left;
+        display: inline-block;
+        margin-right: 10px;
+        margin-left: -10px;
+    }
+    .footer{
+        background-color: white;
+        width: 100%;
+        height: 40px;
+        margin: auto;
+        border-radius: 0px;
+    }
+    .footer .f{
+        width: 100%;
+    }
+    .content{
+        background: linear-gradient(rgb(255, 255, 255),#1D568B);
+        width: 100%;
+        height: 800px;
+        margin: auto;
+    }
+    .leftside{
+        width: 61%;
+        height: 720px;
+    }
+    .leftside .side1{
+        width: 48%;
+        height: 340px;
+    }
+    .leftside .side1 .pict{
+        width: 72%;
+        height: 72%;
+    }
+    .leftside .side1 .txtleft{
+        width: 77%;
+        font-size: 1.2vw;
+    }
+    .leftside .side1 .paraph{
+        width: 85%;
+        font-size: 1.2vw;
+    }
+    .leftside .side2{
+        width: 48%;
+    }
+    .leftside .side2 .txtleft2{
+        width: 73%;
+        font-size: 1.2vw;
+    }
+    .leftside .side2 .paraph2{
+        width: 85%;
+        font-size: 1.2vw;
+    }
+    .leftside .side2 .pict2{
+        width: 72%;
+        margin-left: 51px;
+    }
+    .leftside .side3{
+        width: 48%;
+    }
+    .leftside .side3 .pict3{
+        width: 72%;
+    }
+    .leftside .side3 .txtleft3{
+        width: 77%;
+        font-size: 1.2vw;
+    }
+    .leftside .side3 .paraph3{
+        width: 84%;
+        font-size: 1.2vw;
+    }
+    .rightside{
+        width: 33.5%;
+        height: 717px;
+    }
+    .rightside .date{
+        width: 92%;
+        height: 200px;
+    }
+    .rightside .ads{
+        width: 92%;
+        height: 458px;
+    }
+}
+@media screen and (max-width: 1100px){
+    body .p{
+        font-size: 1.2em;
+        font-family: Segoe UI;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+        width: 100%;
+        height: 40px;
+        padding: 0px;
+        text-align: center;
+    }
+    .container{
+        margin-top: 0px;
+        padding: 0px;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .header{
+        max-width: 100%;
+        background-color: #ffffff;
+        font-family: Segoe UI;
+        color: rgb(0, 0, 0);
+        border-radius: 0px;
+    }
+    .header img{
+        width: 100px;
+        height: 70px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 20px;
+        background-color: #c8c8c8;
+    }
+    .title{
+        width: 25%;
+        height: 70px;
+        float: left;
+        font-size: 20px;
+        text-align: left;
+        margin-top: 7px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+    .navbar{
+        width: 50%;
+        height: 80px;
+        float: right;
+        font-size: 10px;
+    }
+    .navbar ul{
+        padding-right: 0px;
+        margin-left: -102px;
+    }
+    .navbar ul li{
+        font-size: 13px;
+        text-align: left;
+        display: inline-block;
+        margin-right: 10px;
+        margin-left: -10px;
+    }
+    .footer{
+        background-color: white;
+        width: 100%;
+        height: 40px;
+        margin: auto;
+        border-radius: 0px;
+    }
+    .footer .f{
+        width: 100%;
+        height: 20px;
+        padding-top: 10px;
+        font-size: 18px;
+        margin-bottom: 0px;
+        font-family: Segoe UI;
+        color: black;
+        text-align: center;
+    }
+    .content{
+        background: linear-gradient(rgb(255, 255, 255),#1D568B);
+        width: 100%;
+        height: 800px;
+        margin: auto;
+    }
+    .leftside .side1{
+        width: 48%;
+    }
+    .leftside .side1 .pict{
+        width: 72%;
+        height: auto;
+        margin-left: 42px;
+    }
+    .leftside .side1 .txtleft{
+        width: 77%;
+        font-size: 1.2vw;
+        margin-left: 60px;
+    }
+    .leftside .side1 .paraph{
+        width: 69%;
+        font-size: 1.1vw;
+    }
+    .leftside .side2{
+        width: 48%;
+    }
+    .leftside .side2 .txtleft2{
+        width: 73%;
+        font-size: 1.2vw;
+        margin-left: 58px;
+    }
+    .leftside .side2 .paraph2{
+        width: 85%;
+        font-size: 1.1vw;
+        margin-left: 60px;
+    }
+    .leftside .side2 .pict2{
+        width: 72%;
+        height: auto;
+        margin-left: 42px;
+    }
+    .leftside .side3{
+        width: 48%;
+    }
+    .leftside .side3 .pict3{
+        width: 72%;
+        height: auto;
+        margin-left: 42px;
+    }
+    .leftside .side3 .txtleft3{
+        width: 77%;
+        font-size: 1.2vw;
+        margin-left: 57px;
+    }
+    .leftside .side3 .paraph3{
+        width: 84%;
+        font-size: 1.1vw;
+    }
+}
+
+@media screen and (max-width: 900px){
+    body .p{
+        font-family: Segoe UI;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 1px;
+        width: 100%;
+        height: 40px;
+        padding: 0px;
+        text-align: center;
+    }
+    .container{
+        margin-top: 0px;
+        padding: 0px;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .header{
+        max-width: 100%;
+        background-color: #1D568B;
+        font-family: Segoe UI;
+        color: rgb(255, 255, 255);
+        border-radius: 0px;
+    }
+    .header img{
+        width: 100px;
+        height: 70px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 20px;
+        background-color: #c8c8c8;
+    }
+    .title{
+        width: 25%;
+        height: 70px;
+        float: left;
+        font-size: 20px;
+        text-align: left;
+        margin-top: 7px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+    .navbar{
+        width: 50%;
+        height: 80px;
+        float: right;
+        font-size: 12px;
+    }
+    .navbar ul{
+        padding-right: 0px;
+        margin-left: -120px;
+    }
+    .navbar ul li{
+        font-size: 12px;
+        text-align: left;
+        display: inline-block;
+        margin-right: 10px;
+        margin-left: -10px;
+    }
+    .footer{
+        background-color: white;
+        width: 100%;
+        height: 40px;
+        margin: auto;
+        border-radius: 0px;
+    }
+    .footer .f{
+        width: 100%;
+        height: 20px;
+        padding-top: 10px;
+        font-size: 18px;
+        margin-bottom: 0px;
+        font-family: Segoe UI;
+        color: black;
+        text-align: center;
+    }
+    .content{
+        background: linear-gradient(rgb(255, 255, 255),#1D568B);
+        width: 100%;
+        height: 800px;
+        margin: auto;
+    }
+    .leftside .side1{
+        width: 48%;
+    }
+    .leftside .side1 .pict{
+        width: 72%;
+        height: auto;
+        margin-left: 35px;
+    }
+    .leftside .side1 .txtleft{
+        width: 77%;
+        font-size: 1.2vw;
+        margin-left: 60px;
+    }
+    .leftside .side1 .paraph{
+        width: 69%;
+        font-size: 1.1vw;
+    }
+    .leftside .side2{
+        width: 48%;
+    }
+    .leftside .side2 .txtleft2{
+        width: 73%;
+        font-size: 1.2vw;
+        margin-left: 58px;
+    }
+    .leftside .side2 .paraph2{
+        width: 85%;
+        font-size: 1.1vw;
+        margin-left: 60px;
+    }
+    .leftside .side2 .pict2{
+        width: 72%;
+        height: auto;
+        margin-left: 35px;
+    }
+    .leftside .side3{
+        width: 48%;
+    }
+    .leftside .side3 .pict3{
+        width: 72%;
+        height: auto;
+        margin-left: 35px;
+    }
+    .leftside .side3 .txtleft3{
+        width: 77%;
+        font-size: 1.2vw;
+        margin-left: 57px;
+    }
+    .leftside .side3 .paraph3{
+        width: 84%;
+        font-size: 1.1vw;
+    }
+}
+
+@media screen and (max-width: 817px){
+    #mobile-nav{
+        margin-top: 0px;
+        border-radius: 0px 0px 5px 5px;
+        display: block;
+    }
+    #myLinks{
+        border-radius: 0 0 5px 5px;
+    }
+    #menubar .menuLogo{
+        display: block;
+        background-color: transparent;
+        float: right;
+    }
+    #myLinks{
+        text-align: center;
+        background-color:transparent;
+      }
+      #myLinks a{
+        background-color: black;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      .container{
+        margin-top: 0px;
+        padding: 0px;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .header{
+        max-width: 100%;
+        background-color: #ffffff;
+        font-family: Segoe UI;
+        color: rgb(0, 0, 0);
+        border-radius: 0px;
+    }
+    .header img{
+        width: 100px;
+        height: 70px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 20px;
+        background-color: #c8c8c8;
+    }
+    .title{
+        width: 25%;
+        height: 70px;
+        float: left;
+        font-size: 15px;
+        text-align: left;
+        margin-top: 7px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        display: none;
+    }
+    .navbar{
+        width: 50%;
+        height: 70px;
+        float: right;
+        font-size: 5px;
+        display: none;
+    }
+    .footer{
+        background-color: white;
+        width: 100%;
+        height: 40px;
+        margin: auto;
+        border-radius: 0px;
+    }
+    .footer .f{
+        width: 100%;
+        height: 20px;
+        padding-top: 10px;
+        font-size: 18px;
+        margin-bottom: 0px;
+        font-family: Segoe UI;
+        color: black;
+        text-align: center;
+    }
+    .content{
+        background: linear-gradient(rgb(255, 255, 255),#1D568B);
+        width: 100%;
+        height: 800px;
+        margin: auto;
+    }
+    .leftside{
+        width: 94%;
+    }
+    .leftside .side1{
+        width: 48%;
+        background-color:transparent;
+        box-shadow: none;
+    }
+    .leftside .side1 .pict{
+        width: 72%;
+        height: auto;
+        margin-left: 42px;
+    }
+    .leftside .side1 .txtleft{
+        width: 77%;
+        font-size: 2.3vw;
+        margin-left: 60px;
+    }
+    .leftside .side1 .paraph{
+        width: 69%;
+        font-size: 11px;
+    }
+    .leftside .side2{
+        width: 48%;
+        background-color:transparent;
+        box-shadow: none;
+    }
+    .leftside .side2 .txtleft2{
+        width: 82%;
+        font-size: 2.3vw;
+        margin-left: 58px;
+    }
+    .leftside .side2 .paraph2{
+        width: 85%;
+        font-size: 11px;
+        margin-left: 60px;
+    }
+    .leftside .side2 .pict2{
+        width: 72%;
+        height: auto;
+        margin-left: 42px;
+    }
+    .leftside .side3{
+        width: 48%;
+        background-color:transparent;
+        box-shadow: none;
+    }
+    .leftside .side3 .pict3{
+        width: 72%;
+        height: auto;
+        margin-left: 42px;
+    }
+    .leftside .side3 .txtleft3{
+        width: 82%;
+        font-size: 2.3vw;
+        margin-left: 57px;
+    }
+    .leftside .side3 .paraph3{
+        width: 84%;
+        font-size: 1.6vw;
+    }
+    .rightside{
+        display: none;
+    }
+    .rightside .date{
+        display: none;
+    }
+    .rightside .ads{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 620px){
+    #mobile-nav{
+        margin-top: 0px;
+        border-radius: 0px 0px 5px 5px;
+        display: block;
+    }
+    #myLinks{
+        border-radius: 0 0 5px 5px;
+    }
+    #menubar .menuLogo{
+        display: block;
+        background-color: transparent;
+        float: right;
+    }
+    #myLinks{
+        text-align: center;
+        background-color:transparent;
+      }
+      #myLinks a{
+        background-color: black;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      .container{
+        margin-top: 0px;
+        padding: 0px;
+        margin-left: -8px;
+        margin-right: -8px;
+        text-align: center;
+    }
+    .header{
+        max-width: 100%;
+        background-color: #ffffff;
+        font-family: Segoe UI;
+        color: rgb(0, 0, 0);
+        border-radius: 0px;
+    }
+    .header img{
+        width: 100px;
+        height: 70px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 20px;
+        background-color: #c8c8c8;
+    }
+    .title{
+        width: 25%;
+        height: 70px;
+        float: left;
+        font-size: 15px;
+        text-align: left;
+        margin-top: 7px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        display: none;
+    }
+    .navbar{
+        width: 50%;
+        height: 70px;
+        float: right;
+        font-size: 5px;
+        display: none;
+    }
+    .footer{
+        background-color: white;
+        width: 100%;
+        height: 40px;
+        margin: auto;
+        border-radius: 0px;
+    }
+    .footer .f{
+        width: 100%;
+        height: 20px;
+        padding-top: 10px;
+        font-size: 12px;
+        margin-bottom: 0px;
+        font-family: Segoe UI;
+        color: black;
+        text-align: center;
+    }
+    .content{
+        background: linear-gradient(rgb(255, 255, 255),#1D568B);
+        width: 100%;
+        height: 800px;
+        margin: auto;
+    }
+    .leftside{
+        width: 110%;
+        margin-left: -67px;
+    }
+    .leftside .side1{
+        width: 48%;
+        background-color:transparent;
+        box-shadow: none;
+    }
+    .leftside .side1 .pict{
+        width: 80%;
+        height: auto;
+        margin-left: 42px;
+    }
+    .leftside .side1 .txtleft{
+        width: 77%;
+        margin-left: 60px;
+    }
+    .leftside .side1 .paraph{
+        width: 69%;
+        font-size: 11px;
+    }
+    .leftside .side2{
+        width: 48%;
+        background-color:transparent;
+        box-shadow: none;
+    }
+    .leftside .side2 .txtleft2{
+        width: 82%;
+        margin-left: 58px;
+    }
+    .leftside .side2 .paraph2{
+        width: 85%;
+        font-size: 11px;
+        margin-left: 60px;
+    }
+    .leftside .side2 .pict2{
+        width: 80%;
+        height: auto;
+        margin-left: 42px;
+    }
+    .leftside .side3{
+        width: 48%;
+        background-color:transparent;
+        box-shadow: none;
+    }
+    .leftside .side3 .pict3{
+        width: 80%;
+        height: auto;
+        margin-left: 42px;
+    }
+    .leftside .side3 .txtleft3{
+        width: 82%;
+        margin-left: 57px;
+    }
+    .leftside .side3 .paraph3{
+        width: 84%;
+        font-size: 11px;
+    }
+    .rightside{
+        display: none;
+    }
+    .rightside .date{
+        display: none;
+    }
+    .rightside .ads{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .content{
+        margin: auto;
+    }
+    .leftside{
+        width: 110%;
+        margin-left: -67px;
+    }
+    .leftside .side1{
+        width: 48%;
+        background-color:transparent;
+        box-shadow: none;
+    }
+    .leftside .side1 .pict{
+        width: 80%;
+        height: auto;
+        margin-left: 42px;
+    }
+    .leftside .side1 .txtleft{
+        width: 77%;
+        margin-left: 60px;
+    }
+    .leftside .side1 .paraph{
+        width: 69%;
+        font-size: 11px;
+    }
+    .leftside .side2{
+        width: 46%;
+        background-color:transparent;
+        box-shadow: none;
+    }
+    .leftside .side2 .txtleft2{
+        width: 82%;
+        margin-left: 58px;
+    }
+    .leftside .side2 .paraph2{
+        width: 71%;
+        font-size: 11px;
+        margin-left: 60px;
+    }
+    .leftside .side2 .pict2{
+        width: 80%;
+        height: auto;
+        margin-left: 42px;
+    }
+    .leftside .side3{
+        width: 48%;
+        background-color:transparent;
+        box-shadow: none;
+    }
+    .leftside .side3 .pict3{
+        width: 80%;
+        height: auto;
+        margin-left: 42px;
+    }
+    .leftside .side3 .txtleft3{
+        width: 82%;
+        margin-left: 57px;
+    }
+    .leftside .side3 .paraph3{
+        width: 84%;
+        font-size: 11px;
+    }
+    .rightside{
+        display: none;
+    }
+    .rightside .date{
+        display: none;
+    }
+    .rightside .ads{
+        display: none;
+    }
+}
+@media screen and (max-width: 420px){
+    .content{
+        height: 1400px;
+        margin: auto;
+    }
+    .leftside{
+        width: 112%;
+        margin-left: -67px;
+    }
+    .leftside .side1{
+        width: 48%;
+        background-color:transparent;
+        box-shadow: none;
+    }
+    .leftside .side1 .pict{
+        width: 182%;
+        height: 212px;
+        margin-left: 46px;
+        
+    }
+    .leftside .side1 .txtleft{
+        width: 154%;
+        margin-left: 60px;
+        font-size: 4.2vw;
+    }
+    .leftside .side1 .paraph{
+        width: 134%;
+        font-size: 3.4vw;
+    }
+    .leftside .side2{
+        width: 48%;
+        background-color:transparent;
+        box-shadow: none;
+        margin-top: -32px;
+        float: left;
+    }
+    .leftside .side2 .txtleft2{
+        width: 154%;
+        margin-left: 60px;
+        font-size: 4.2vw;
+    }
+    .leftside .side2 .paraph2{
+        width: 134%;
+        font-size: 3.4vw;
+    }
+    .leftside .side2 .pict2{
+        width: 182%;
+        height: 212px;
+        margin-top: 15px;
+        margin-left: 45px;
+        margin-right: 10px;
+        margin-bottom: 0px;
+        float: none;
+        border-radius: 20px;
+    }
+    .leftside .side3{
+        width: 48%;
+        background-color:transparent;
+        box-shadow: none;
+        margin-top: -36px;
+    }
+    .leftside .side3 .pict3{
+        width: 182%;
+        height: 212px;
+        margin-left: 46px;
+    }
+    .leftside .side3 .txtleft3{
+        width: 154%;
+        margin-left: 60px;
+        font-size: 4.2vw;
+    }
+    .leftside .side3 .paraph3{
+        width: 134%;
+        font-size: 3.4vw;
+    }
+    .rightside{
+        display: none;
+    }
+    .rightside .date{
+        display: none;
+    }
+    .rightside .ads{
+        display: none;
+    }
+}
+
